@@ -1,0 +1,67 @@
+/*地址管理*/
+
+page {
+    background-color: #efeff4;
+    font-size: 10pt;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-top: 1px;
+    padding: 30rpx;
+    margin: 20rpx 20rpx;
+}
+
+.address-icon {
+    width: 300rpx;
+}
+
+.address-detail {
+    width: 650rpx;
+}
+
+.address-name-phone {
+    margin-bottom: 20rpx;
+    font-size: 11pt;
+    font-weight: bolder;
+    color: #303030;
+}
+
+.address-name{
+    margin-right: 20rpx;
+}
+
+.address-info {
+    margin-bottom: 30rpx;
+    color: #888888;
+}
+
+.address-edit {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px #efeff4 solid;
+    padding-top: 30rpx;
+    color: #888888;
+}
+
+.add-address {
+    /*display: flex;*/
+    /*align-items: center;*/
+    background-color: #fff;
+    font-size: 11pt;
+    font-weight: bolder;
+    padding: 30rpx;
+    margin: 20rpx 20rpx;
+    height: 28rpx;
+    width: 650rpx;
+    line-height: 28rpx;
+    color: #e47932;
+    text-align: center;
+}
